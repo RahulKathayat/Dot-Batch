@@ -1,5 +1,6 @@
 const User = require("../models/User");
 const OTP = require("../models/OTP");
+const Profile = require("../models/Profile");
 const otpGenerator = require("otp-generator");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
@@ -140,7 +141,7 @@ exports.signUp = async (req, res) => {
             gender:null,
             dateOfBirth: null,
             about:null,
-            contactNumer:null,
+            contactNumber:null,
         });
 
         const user = await User.create({
@@ -151,7 +152,7 @@ exports.signUp = async (req, res) => {
             password:hashedPassword,
             accountType,
             additionalDetails:profileDetails._id,
-            image: `https://api.dicebear.com/5.x/initials/svg?seed=${firstname} ${lastName}`,
+            image: `https://api.dicebear.com/5.x/initials/svg?seed=${firstName} ${lastName}`,
         })
 
         //return res
