@@ -14,7 +14,7 @@ const userSchema = new mongoose.Schema({
     email:{
         type:String,
         required:true,
-
+        trim: true,
     },
     password:{
         type:String,
@@ -46,13 +46,24 @@ const userSchema = new mongoose.Schema({
     courseProgress:[
         {
             type:mongoose.Schema.Types.ObjectId,
-            ref:"CourseProgress",
+            ref:"courseProgress",
         }
     ],
     image:{
         type:String,
         required:true,
     },
-});
+    active: {
+        type: Boolean,
+        default: true,
+    },
+    approved: {
+        type: Boolean,
+        default: true,
+    },
+},
+{ timestamps: true } // Add timestamps for when the document is created and last modified
+
+);
 
 module.exports = mongoose.model("User",userSchema);

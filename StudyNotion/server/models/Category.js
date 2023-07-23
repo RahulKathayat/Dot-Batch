@@ -7,9 +7,8 @@ const categorySchema = new mongoose.Schema({
     },
     decription:{
         type:String,
-        required:true,
     },
-    course:[
+    courses:[
         {
             type:mongoose.Schema.Types.ObjectId,
             ref:"Course",
