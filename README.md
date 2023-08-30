@@ -1,2 +1,2 @@
-# This repository covers my Web Development Journey, Progress and Mini Projects 
+# This repository covers my Web Development Journey, Progress and Projects 
 
