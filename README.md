@@ -1,2 +1,2 @@
-# Dot-Batch
-web development projects and codes
+# This repository covers my Web Development Journey, Progress and Mini Projects 
+
