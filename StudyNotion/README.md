@@ -1,8 +1,8 @@
 # StudyNotion an Edtech Project
 
-## StudyNotion is a fully functional ed-tech platform that enables users to create, consume, and rate educational content. The platform is built using the MERN stack, which includes ReactJS, NodeJS, MongoDB, and ExpressJS.🎓
+### StudyNotion is a fully functional ed-tech platform that enables users to create, consume, and rate educational content. The platform is built using the MERN stack, which includes ReactJS, NodeJS, MongoDB, and ExpressJS.🎓
 
-## 🌐 Live Demo: https://lnkd.in/dUnrjnDV (Since the backend is hosted on a free instance tier, the API response will take a minute to respond for the first time, so do wait patiently)
+### 🌐 Live Demo: https://lnkd.in/dUnrjnDV (Since the backend is hosted on a free instance tier, the API response will take a minute to respond for the first time, so do wait patiently)
 
 Frontend Hosted on Vercel.
 Backend Hosted on Render.
